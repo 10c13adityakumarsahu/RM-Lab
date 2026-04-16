@@ -1,0 +1,52 @@
+{
+  "title": "Oblique Shear Test",
+  "videos": [
+    "https://www.youtube.com/embed/3t8mKk7KXkA"
+  ],
+  "aim": "To determine the shear strength parameters of rock under oblique loading.",
+  "apparatus": [
+    "Compression Testing Machine (CTM)",
+    "Oblique shear fixture",
+    "Rock specimen",
+    "Vernier caliper",
+    "Scale"
+  ],
+  "theory": [
+    "Oblique shear test is used to determine shear strength of rock under inclined loading.",
+    "The specimen is subjected to compressive load at an angle.",
+    "The applied load produces both normal and shear stresses.",
+    "Shear failure occurs along a predefined plane.",
+    "The shear and normal components depend on the angle of inclination.",
+    "Shear stress = (P/A) sinθ cosθ.",
+    "Normal stress = (P/A) cos²θ.",
+    "The test helps determine cohesion and angle of internal friction.",
+    "It simulates field conditions where stresses act at angles.",
+    "Used in slope stability and rock engineering analysis."
+  ],
+  "procedure": [
+    "Prepare a rock specimen with smooth surfaces.",
+    "Measure its dimensions accurately.",
+    "Place the specimen in the oblique shear fixture at a known angle.",
+    "Position the setup in the compression testing machine.",
+    "Apply load gradually without shock.",
+    "Increase load until failure occurs along the inclined plane.",
+    "Record the failure load.",
+    "Calculate normal and shear stresses.",
+    "Repeat the test for different angles if required.",
+    "Determine shear strength parameters."
+  ],
+  "Reftables": [
+    {"Range":"Low","Type":"Weak Rock"},
+    {"Range":"Medium","Type":"Moderate Rock"},
+    {"Range":"High","Type":"Strong Rock"}
+  ],
+  "tables": [
+    { "Load (kN)": "100","Angle (°)": "30","Shear Stress (MPa)":"2.5","Normal Stress (MPa)":"4.3" },
+    { "Load (kN)": "120","Angle (°)": "45","Shear Stress (MPa)":"3.0","Normal Stress (MPa)":"3.0"}
+  ],
+  "calculation": [
+    "Shear stress = (P/A) sinθ cosθ",
+    "Normal stress = (P/A) cos²θ"
+  ],
+  "result": "Shear strength parameters of the rock were determined using oblique shear test."
+}

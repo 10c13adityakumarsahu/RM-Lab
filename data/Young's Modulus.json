@@ -1,0 +1,59 @@
+{
+  "title": "Young's Modulus of Rock",
+  "videos": [
+    "https://www.youtube.com/embed/6nQ0qjvYh4A"
+  ],
+  "aim": "To determine the Young's Modulus of the given rock specimen.",
+  "apparatus": [
+    "Compression Testing Machine (CTM)",
+    "Dial Gauge / Strain Gauge",
+    "Extensometer",
+    "Vernier Caliper",
+    "Scale",
+    "Rock Specimen (cylindrical)"
+  ],
+  "theory": [
+    "Young's Modulus is a measure of the stiffness or rigidity of a material.",
+    "It is defined as the ratio of stress to strain within the elastic limit of the material.",
+    "For rocks, it indicates how much the rock deforms under applied load.",
+    "The test is usually performed under uniaxial compression.",
+    "Stress is calculated as load divided by cross-sectional area.",
+    "Strain is calculated as change in length divided by original length.",
+    "Within the elastic limit, stress is directly proportional to strain.",
+    "The slope of the stress-strain curve in the elastic region gives Young's Modulus.",
+    "Higher value of Young's Modulus indicates stiffer rock.",
+    "Lower value indicates more deformable rock.",
+    "It is important in rock mechanics, tunneling, and foundation design.",
+    "It helps in understanding deformation behavior of rocks under load."
+  ],
+  "procedure": [
+    "The rock specimen is prepared in cylindrical shape with smooth and parallel ends.",
+    "The dimensions (diameter and length) of the specimen are measured accurately.",
+    "The specimen is placed in the Compression Testing Machine (CTM).",
+    "An extensometer or dial gauge is attached to measure deformation.",
+    "Load is applied gradually and uniformly without shock.",
+    "At regular intervals, corresponding deformation readings are recorded.",
+    "Loading is continued within the elastic limit of the specimen.",
+    "Stress and strain values are calculated for each reading.",
+    "A stress-strain graph is plotted.",
+    "The slope of the linear portion of the graph is determined.",
+    "Young's Modulus is calculated using the slope.",
+    "The experiment is repeated and average value is reported."
+  ],
+  "Reftables": [
+    {"Range":"1-20 GPa","Type":"Very Low Stiffness"},
+    {"Range":"20-40 GPa","Type":"Low Stiffness"},
+    {"Range":"40-70 GPa","Type":"Medium Stiffness"},
+    {"Range":"70-100 GPa","Type":"High Stiffness"},
+    {"Range":">100 GPa","Type":"Very High Stiffness"}
+  ],
+  "tables": [
+    { "Load (kN)": "50","Stress (MPa)": "5","Strain":"0.0001","Young's Modulus (GPa)":"50" },
+    { "Load (kN)": "100","Stress (MPa)": "10","Strain":"0.0002","Young's Modulus (GPa)":"50"}
+  ],
+  "calculation": [
+    "E = Stress / Strain => 5 / 0.0001 = 50 GPa",
+    "E = 10 / 0.0002 = 50 GPa"
+  ],
+  "result": "The Young's Modulus of the given rock sample is found to be 50 GPa."
+}

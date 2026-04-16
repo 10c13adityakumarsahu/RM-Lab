@@ -1,0 +1,53 @@
+{
+  "title": "Slake Durability Test",
+  "videos": [
+    "https://www.youtube.com/embed/2cFz9n3K7zU"
+  ],
+  "aim": "To determine the slake durability index of rock.",
+  "apparatus": [
+    "Slake durability apparatus (rotating drum)",
+    "Oven",
+    "Weighing machine",
+    "Wire mesh drum",
+    "Water tank"
+  ],
+  "theory": [
+    "Slake durability test measures resistance of rock to disintegration in water.",
+    "It is mainly used for weak rocks like shale and mudstone.",
+    "The test simulates natural weathering conditions.",
+    "Rock samples undergo wetting and drying cycles.",
+    "Durability index is based on weight retained after cycles.",
+    "Higher index indicates stronger and more durable rock.",
+    "Lower index indicates weak and easily disintegrating rock.",
+    "It is important for slope stability and excavation analysis.",
+    "Used in mining, tunneling, and geotechnical engineering."
+  ],
+  "procedure": [
+    "Select 10 rock pieces of standard size (40–60 g each).",
+    "Dry the samples in an oven and record initial weight.",
+    "Place samples in the rotating drum.",
+    "Immerse the drum in water.",
+    "Rotate the drum at 20 rpm for 10 minutes.",
+    "Remove and oven-dry the samples.",
+    "Weigh the retained material.",
+    "Repeat the process for second cycle.",
+    "Calculate slake durability index.",
+    "Report average value."
+  ],
+  "Reftables": [
+    {"Range":"0-25","Type":"Very Low Durability"},
+    {"Range":"25-50","Type":"Low Durability"},
+    {"Range":"50-75","Type":"Medium Durability"},
+    {"Range":"75-90","Type":"High Durability"},
+    {"Range":"90-100","Type":"Very High Durability"}
+  ],
+  "tables": [
+    { "Cycle":"1","Initial Weight (g)": "500","Final Weight (g)":"420","Id (%)":"84" },
+    { "Cycle":"2","Initial Weight (g)": "500","Final Weight (g)":"400","Id (%)":"80"}
+  ],
+  "calculation": [
+    "Id = (Final Weight / Initial Weight) × 100",
+    "Id = (400 / 500) × 100 = 80%"
+  ],
+  "result": "The slake durability index of the given rock is found to be 80%, indicating high durability."
+}

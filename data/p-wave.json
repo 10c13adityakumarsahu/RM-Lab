@@ -1,0 +1,59 @@
+{
+  "title": "P-Wave Velocity Test (Ultrasonic Pulse Velocity)",
+  "videos": [
+    "https://www.youtube.com/embed/8n7pZ0s8Zqk"
+  ],
+  "aim": "To determine the P-wave velocity of the given rock specimen.",
+  "apparatus": [
+    "Ultrasonic Pulse Velocity (UPV) apparatus",
+    "Transducers (Transmitter and Receiver)",
+    "Rock specimen",
+    "Coupling gel/grease",
+    "Vernier caliper / scale",
+    "Timer (digital display in UPV)"
+  ],
+  "theory": [
+    "P-waves (Primary waves) are compressional waves that travel through solids, liquids, and gases.",
+    "In rocks, P-wave velocity depends on density, elasticity, and porosity.",
+    "Higher velocity indicates stronger, denser, and less fractured rock.",
+    "Lower velocity indicates weak, porous, or cracked rock.",
+    "The test is based on measuring the travel time of ultrasonic pulses through the specimen.",
+    "A transmitter generates ultrasonic waves which pass through the rock.",
+    "A receiver detects the waves after traveling through the specimen.",
+    "Velocity is calculated as the ratio of length to travel time.",
+    "V = L / T, where V is velocity, L is length, and T is time taken.",
+    "It is a non-destructive test widely used in rock mechanics.",
+    "It helps in evaluating rock quality, cracks, and internal defects.",
+    "Used in geotechnical, mining, and construction engineering."
+  ],
+  "procedure": [
+    "The rock specimen is prepared with smooth and parallel faces.",
+    "The length of the specimen is measured accurately using a scale or vernier caliper.",
+    "The surfaces of the specimen are cleaned properly.",
+    "Coupling gel is applied on both ends of the specimen to ensure proper transmission of waves.",
+    "The transmitter and receiver transducers are placed on opposite faces of the specimen.",
+    "The UPV apparatus is switched on and properly calibrated.",
+    "Ultrasonic pulse is generated and allowed to pass through the specimen.",
+    "The travel time of the pulse is displayed on the device.",
+    "Multiple readings are taken for accuracy.",
+    "The average travel time is calculated.",
+    "P-wave velocity is calculated using V = L / T.",
+    "The result is recorded and analyzed."
+  ],
+  "Reftables": [
+    {"Range":"< 2 km/s","Type":"Very Poor Rock"},
+    {"Range":"2 - 3 km/s","Type":"Poor Rock"},
+    {"Range":"3 - 4 km/s","Type":"Medium Rock"},
+    {"Range":"4 - 5 km/s","Type":"Good Rock"},
+    {"Range":"> 5 km/s","Type":"Excellent Rock"}
+  ],
+  "tables": [
+    { "Length (m)": "0.1","Time (µs)": "25","Velocity (km/s)":"4" },
+    { "Length (m)": "0.1","Time (µs)": "20","Velocity (km/s)":"5" }
+  ],
+  "calculation": [
+    "V = L / T => 0.1 / (25 × 10^-6) = 4000 m/s = 4 km/s",
+    "V = 0.1 / (20 × 10^-6) = 5000 m/s = 5 km/s"
+  ],
+  "result": "The P-wave velocity of the given rock sample is found to be 4 km/s and 5 km/s indicating good to excellent rock quality."
+}

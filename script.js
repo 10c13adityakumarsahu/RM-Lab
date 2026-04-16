@@ -9,11 +9,11 @@ const experiments = [
   "Protodyakonov strength index",
   "Impact Strength Index",
   "UCS",
-  "experiment8",
-  "experiment9",
-  "experiment10",
-  "experiment11",
-  "experiment12"
+  "Young's Modulus",
+  "p-wave",
+  "Oblique Shear Test",
+  "Single & Double Shear Test",
+  "Slake Durability Test"
 ];
 
 /* ================================

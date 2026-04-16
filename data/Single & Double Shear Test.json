@@ -1,0 +1,50 @@
+{
+  "title": "Single and Double Shear Test",
+  "videos": [
+    "https://www.youtube.com/embed/9m8P0Z5p7gE"
+  ],
+  "aim": "To determine shear strength of rock under single and double shear conditions.",
+  "apparatus": [
+    "Shear testing machine",
+    "Shear box",
+    "Rock specimen",
+    "Dial gauge",
+    "Vernier caliper"
+  ],
+  "theory": [
+    "Shear test determines resistance of rock against shear forces.",
+    "In single shear, failure occurs along one plane.",
+    "In double shear, failure occurs along two planes.",
+    "Shear stress is calculated as load divided by shear area.",
+    "Double shear provides higher strength due to two resisting planes.",
+    "The test helps evaluate cohesion and frictional resistance.",
+    "Used in design of rock structures and foundations.",
+    "It simulates conditions where rocks slide over each other."
+  ],
+  "procedure": [
+    "Prepare the rock specimen with required dimensions.",
+    "Measure cross-sectional area accurately.",
+    "Place the specimen in the shear box.",
+    "Align properly for single shear condition.",
+    "Apply load gradually until failure occurs.",
+    "Record the failure load.",
+    "Repeat the test for double shear setup.",
+    "Record corresponding failure load.",
+    "Calculate shear stress for both cases.",
+    "Compare results of single and double shear."
+  ],
+  "Reftables": [
+    {"Range":"Low","Type":"Weak"},
+    {"Range":"Medium","Type":"Moderate"},
+    {"Range":"High","Type":"Strong"}
+  ],
+  "tables": [
+    { "Type":"Single Shear","Load (kN)": "80","Area (mm²)":"400","Shear Stress (MPa)":"0.2" },
+    { "Type":"Double Shear","Load (kN)": "140","Area (mm²)":"400","Shear Stress (MPa)":"0.35"}
+  ],
+  "calculation": [
+    "Shear stress = Load / Area",
+    "For double shear, effective area is doubled"
+  ],
+  "result": "Shear strength in double shear is higher than single shear for the given rock."
+}
