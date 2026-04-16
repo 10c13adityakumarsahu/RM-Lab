@@ -2,13 +2,13 @@
    CONFIG
 ================================ */
 const experiments = [
-  "experiment1",
-  "experiment2",
-  "experiment3",
-  "experiment4",
-  "experiment5",
-  "experiment6",
-  "experiment7",
+  "Schmidth Hammer Test",
+  "Determination of RQD",
+  "Point Load Test",
+  "Brazilian Test",
+  "Protodyakonov strength index",
+  "Impact Strength Index",
+  "UCS",
   "experiment8",
   "experiment9",
   "experiment10",
@@ -82,13 +82,14 @@ function renderExperiment(data) {
   title.textContent = data.title || "Untitled Experiment";
 
   content.innerHTML = `
-    ${createVideos(data.videos)}
     ${createCard("Aim", data.aim)}
     ${createCard("Apparatus", data.apparatus)}
     ${createCard("Theory", data.theory)}
+    ${createVideos(data.videos)}
     ${createCard("Principle", data.principle)}
     ${createDiagram(data.diagram)}
     ${createList("Procedure", data.procedure)}
+    ${createRefTable(data.Reftables)}
     ${createTable(data.tables)}
     ${createCard("Calculation", data.calculation)}
     ${createCard("Precautions", data.precautions)}
@@ -166,6 +167,27 @@ function createTable(rows) {
   `;
 }
 
+function createRefTable(rows) {
+  if (!rows || rows.length === 0) return "";
+
+  const keys = Object.keys(rows[0]);
+
+  return `
+    <div class="card fade-in">
+      <h3>Reference Tables</h3>
+      <table>
+        <thead>
+          <tr>${keys.map(k => `<th>${k}</th>`).join("")}</tr>
+        </thead>
+        <tbody>
+          ${rows.map(r => `
+            <tr>${keys.map(k => `<td>${r[k]}</td>`).join("")}</tr>
+          `).join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
 /* ================================
    LOADING + ERROR STATES
 ================================ */

@@ -1,0 +1,50 @@
+{
+  "title": "Point Load Test",
+  "videos": [
+    "https://www.youtube.com/embed/7X7zo5hy-q0"
+  ],
+  "aim": "to determine the indirect tensile strength of rock using Brazillian test.",
+  "apparatus": [
+    "Steel Loading Jaws",
+    "loading Machines",
+    "Vernier Callipers",
+    "Load Measuring Systems"
+  ],
+  "theory": [
+  "Brazilian test is used to determine the tensile strength of rock indirectly.",
+  "Direct tensile testing of rocks is difficult to perform, so this method is preferred.",
+  "A cylindrical disc-shaped specimen is used in the test.",
+  "The specimen is placed horizontally between two loading platens.",
+  "Load is applied diametrically (along the diameter of the disc).",
+  "This creates tensile stress perpendicular to the applied load direction.",
+  "Although the load is compressive, it induces tensile failure inside the specimen.",
+  "The rock fails by splitting along the vertical diameter.",
+  "The tensile strength depends on applied load at failure, diameter of specimen, and thickness of specimen.",
+  "The tensile strength is calculated using the formula: σt = (2P) / (πDt).",
+  "It is an indirect method for evaluating tensile strength of rocks.",
+  "The test is simple, quick, and widely used in rock mechanics."
+],
+  "procedure": [
+  "A cylindrical rock specimen (disc) is prepared with uniform diameter and thickness.",
+  "The specimen surfaces are made smooth and parallel to ensure proper loading.",
+  "The diameter (D) and thickness (t) of the specimen are measured accurately.",
+  "The specimen is placed horizontally between the loading platens of the testing machine.",
+  "It is aligned such that the load is applied along the diameter of the disc.",
+  "Thin packing strips (cardboard or plywood) may be placed between platens and specimen to ensure uniform load distribution.",
+  "Load is applied gradually and continuously without shock.",
+  "The load is increased until the specimen fails (splits along the vertical diameter).",
+  "The failure load (P) is recorded at the moment of fracture.",
+  "The test is repeated for multiple specimens for accuracy.",
+  "The tensile strength is calculated using the standard formula.",
+  "The average value of tensile strength is reported as the result."
+],
+  "tables": [
+    { "Sample No.": "1", "Diameter (cm)": "3.64","Thickness (cm)":"2.71","Failure Load (KN)":"4","Tensile Strength":"0.258" },
+    { "Sample No.": "2","Diameter (cm)": "3.62","Thickness (cm)":"2.65","Failure Load (KN)":"3.5","Tensile Strength":"0.232"},
+    { "Sample No.": "3", "Diameter (cm)": "3.73","Thickness (cm)":"2.74","Failure Load (KN)":"4.5","Tensile Strength":"0.280"}
+  ],
+  "calculation": [
+    "sample 1 => 0.636P/D*t = 0.258MPa<br>sample 2 => 0.636P/D*t = 0.232MPa<br>sample 3 => 0.636P/D*t = 0.280MPa <br> Avg = 0.256MPa"
+  ],
+  "result": "Tensile Strength of the Sample is 0.256 KN/cm^2"
+}

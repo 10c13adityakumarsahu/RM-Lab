@@ -1,0 +1,58 @@
+{
+  "title": "Uniaxial Compressive Strength",
+  "videos": [
+    "https://www.youtube.com/embed/Jgpp1vemff0"
+  ],
+  "aim": "To determine the Protodyakonov strength index of rock .",
+  "apparatus": [
+    "Protodyakonov apparatus",
+    "sample Sets",
+    " Hammer",
+    "Sieve",
+    "Weighing Machine",
+    "Volumometer"
+  ],
+  "theory": [
+  "Protodyakonov Strength Index test is used to determine the hardness or strength of rock.",
+  "It gives a strength index (f value) which represents the resistance of rock to crushing.",
+  "The test is based on the impact (dynamic loading) principle.",
+  "A rock sample is subjected to repeated hammer blows to break it into smaller pieces.",
+  "The degree of crushing indicates the strength of the rock.",
+  "After crushing, the material is sieved to separate fine particles.",
+  "The amount of fines produced is used to calculate the strength index.",
+  "Stronger rocks produce fewer fines, while weaker rocks produce more fines.",
+  "The Protodyakonov index (f) is inversely related to the degree of crushing.",
+  "It is widely used in mining and tunneling for rock classification.",
+  "The test is simple, quick, and suitable for field conditions.",
+  "The index helps in selecting excavation methods and equipment."
+],
+  "procedure": [
+  "The given rock sample is first broken into small, uniform-sized pieces as specified in the experiment, removing weathered or weak portions.",
+  "The prepared sample is cleaned and dried to eliminate moisture and dust for accurate results.",
+  "A known weight of the sample (as prescribed in the lab manual) is taken for the test.",
+  "The weighed sample is placed inside a standard cylindrical steel mortar (test cylinder).",
+  "A standard hammer or weight is positioned above the sample and allowed to fall freely from a fixed height.",
+  "The sample is subjected to a specified number of blows to ensure uniform application of impact energy.",
+  "Due to repeated impacts, the rock sample is crushed into smaller fragments and fine particles.",
+  "After the required number of blows, the crushed material is carefully removed from the cylinder.",
+  "The material is sieved using a standard sieve as specified.",
+  "The weight or quantity of fine particles passing through the sieve is measured accurately.",
+  "Using this value, the Protodyakonov Strength Index (f) is calculated as per the given formula.",
+  "The experiment is repeated for multiple trials, and the average strength index is reported as the final result."
+],  
+  "Reftables": [
+    {"Range":"0.3-1.5","Type":"Very Soft"},
+    {"Range":"1.5-3","Type":"Soft"},
+    {"Range":"3-6","Type":"Medium Hard"},  
+    {"Range":"6-10","Type":"Hard"},
+    {"Range":"10-20","Type":"Very Hard"}
+  ],
+  "tables": [
+    { "Sample No.": "1","Weight (gm)": "250","No. of poundings":"5","Height in (mm)":"30","Protodyakonov Streigth index":"3.33","Compressive Strength":"333" },
+    { "Sample No.": "2","Weight (gm)": "250","No. of poundings":"5","Height in (mm)":"55","Protodyakonov Streigth index":"1.8","Compressive Strength":"180"}
+  ],
+  "calculation": [
+    "Pi= (20*n)/h => (20*5)/30 = 3.33 & (20*5)/55 = 1.80 "
+  ],
+  "result": "The PSI is 333kgf/cm^2 and 180kgf/cm^2 for sample 1 and Sample 2 respectively."
+}

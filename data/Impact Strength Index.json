@@ -1,0 +1,45 @@
+{
+  "title": "Impact Strength Index",
+  "aim": "To determine the Impact strength index of rock .",
+  "apparatus": [
+    "Protodyakonov apparatus",
+    "sample Sets",
+    " Hammer",
+    "Sieve",
+    "Weighing Machine",
+    "Volumometer"
+  ],
+  "theory": [
+  "Impact Strength Index test is used to determine the resistance of rock to impact loading.",
+  "It evaluates how a rock behaves under sudden dynamic loads such as hammer blows.",
+  "The test is based on the principle of energy required to break a rock sample by impact.",
+  "A standard hammer is dropped from a fixed height onto the rock specimen.",
+  "The rock undergoes repeated impacts until it breaks into smaller pieces.",
+  "The number of blows required to cause failure indicates the strength of the rock.",
+  "Stronger rocks require more blows, while weaker rocks break with fewer blows.",
+  "The test measures the toughness and resistance to sudden fracture.",
+  "It is particularly useful in mining, blasting, and excavation studies.",
+  "The index is expressed as an Impact Strength Index value based on number of blows or energy.",
+  "The test is simple, quick, and suitable for comparative analysis of rocks.",
+  "It helps in selecting suitable equipment and excavation methods in rock engineering."
+],
+  "procedure": [
+  "Take the rock sample and break it into pieces of size about 12–16 mm.",
+  "Weigh about 100 g of the sample accurately.",
+  "Place the sample in a standard cylindrical steel container of the impact testing apparatus.",
+  "Use a hammer of about 2 kg weight.",
+  "Raise the hammer to a fixed height of 30 cm (300 mm).",
+  "Allow the hammer to fall freely onto the sample.",
+  "Repeat the process for a fixed number of blows (usually 20 blows).",
+  "After applying all blows, collect the crushed material carefully.",
+  "Sieve the material using a standard sieve (generally 2.36 mm or 2 mm IS sieve).",
+  "Measure the weight of fines passing through the sieve.",
+  "Calculate the Impact Strength Index using number of blows, initial weight, and weight of fines produced."
+],  
+  "tables": [
+    { "Sample No.": "1","Weight before pounding (gm)": "1000","weight after poundings (gm)":"97","Impact Streigth index":"97%"},
+    { "Sample No.": "2","Weight before pounding (gm)": "1000","weight after poundings (gm)":"97.5","Impact Streigth index":"97.5%"}
+  ],
+  "precautions": "<ul><li>The cylinder must be throughly cleanded. <li> The screw cap must be closed tightly.</ul>",
+  "result": "The PSI is 333kgf/cm^2 and 180kgf/cm^2 for sample 1 and Sample 2 respectively."
+}

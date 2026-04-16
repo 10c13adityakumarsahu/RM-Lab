@@ -1,0 +1,42 @@
+{
+  "title": "Schmidth Hammer Test",
+  "videos": [
+    "https://www.youtube.com/embed/vnZzB8VjANk"
+  ],
+  "aim": "To Determine the rebound hardness no. of given rock samples using Schmidth Hammer.",
+  "apparatus": "Schmidth Hammer",
+  "theory": "<ul><li>Schmidth Hammer is a non Destructive test for quality of rock or concrete determination.<li>It measures the rebound hardness of the tested material.<li>The mechanism is simple it has a Spring and a Plunger.<li> As the Spring is released the plunger makes impact on the specimen.<li>This impact creates a rebound and the rebound can be read directly form the numerical scale.<li>This uses the prediction of Uni-axial Compressive strength to predict.<li> There are two types of Schmidth Hammer - a) L type (0.735 Nm which is 1/3 of N type) b) OFC, N Type. <li> As per ISRM for 20-150MPa approx UCS L type must be used. </ul>",
+  "procedure": [
+    "20 Points should be marked on the smooth surface of the rock/concrete specimen to be tested.",
+    "There should be more than 2-4units distance from the edge of the rock specimen.",
+    "The distance between any two points must be more than 6mm.",
+    "The apparatus must be placed and pressed agianst the surface and the reading must be note down after locking the reading. ",
+    "The Spring must be release and the same should be repeated for other 19 points and the upper 10 points average must be calculated.",
+    "Similarly, this should be repeated for other 9 samples. "
+  ],
+  "tables": [
+    {"No.":"1", "a": "53", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"2", "a": "51", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"3", "a": "52", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"4", "a": "43", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"5", "a": "26", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"6", "a": "25", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"7", "a": "60", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"8", "a": "32", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"9", "a": "54", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"10", "a": "38", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"11", "a": "49", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"12", "a": "29", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"13", "a": "58", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"14", "a": "35", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"15", "a": "53", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"16", "a": "41", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"17", "a": "28", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"18", "a": "39", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"19", "a": "45", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""},
+    {"No.":"20", "a": "36", "b": "0.1", "c": "","d":"","e":"","f":"","g":"","i":"","j":""}
+  ],
+  "calculation": "Average of the top 10 values of each samples observation",
+  "precautions": "<ul><li>The apparatus must be perpendicular to the sample. <li> The apparatus and the specimen must be in proper contact.</ul>",
+  "result": "Rebound number of the given specimen is as below: <br> <ul><li>Sample A - 51.8<li>Sample B - 52.9<li>Sample C - 51.3<li>Sample D - 19.9<li>Sample E - 23.2<li>Sample F - 24.5<li>Sample G - 30.4<li>Sample H - 19.8<li>Sample I - 29.3<li>Sample J - 63.2 </ul>"
+}

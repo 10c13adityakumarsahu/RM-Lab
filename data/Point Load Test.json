@@ -1,0 +1,49 @@
+{
+  "title": "Point Load Test",
+  "videos": [
+    "https://www.youtube.com/embed/3rFi4DkSypk"
+  ],
+  "aim": "Point Load Strength Index test and its use to estimate the UCS",
+  "apparatus": [
+    "Core Specimens",
+    "Point Load Testing Machines",
+    "Vernier Callipers",
+    "Load Measuring Systems"
+  ],
+  "theory": [
+    "Point Load Strength Index test is used to estimate the strength of rock (especially compressive strength) indirectly.",
+    "It is an index test, meaning it gives a quick measure rather than exact strength like UCS.",
+    "The test is performed by applying load to a rock sample until failure occurs.",
+    "Load is applied through conical platens (point contacts) on opposite sides of the specimen.",
+    "The failure load (P) is recorded at the moment the rock breaks.",
+    "The distance (D) between the contact points is measured.",
+    "It is an indirect method used to determine uniaxial compressive strength (UCS) of rock.",
+    "Suitable for irregular as well as regular rock samples (unlike UCS which needs perfect specimens).",
+    "It is faster, cheaper, and requires less sample preparation compared to UCS test.",
+    "A size correction factor is applied when sample diameter is less than standard size (usually 50 mm).",
+    "The test is widely used in field and laboratory conditions for rock strength classification."
+  ],
+  "procedure": [
+  "Rock samples are selected and checked for cracks or defects.",
+  "Suitable specimens (regular or irregular) are prepared and cleaned before testing.",
+  "The sample is placed between the two conical platens of the testing machine.",
+  "It is positioned such that the load is applied through opposite points of the specimen.",
+  "The distance (D) between the contact points is measured using a vernier or dial gauge.",
+  "Load is applied gradually and continuously using the loading system.",
+  "The load is increased until the sample fails (breaks).",
+  "The failure load (P) is recorded from the pressure gauge at the moment of failure.",
+  "The same procedure is repeated for multiple samples.",
+  "The Point Load Strength Index (Is or ID) is calculated using recorded values.",
+  "If required, a size correction factor is applied to standardize results.",
+  "Finally, the average value of the index is taken as the result."
+],
+  "tables": [
+    { "Sample No.": "1", "Diameter (cm)": "4","Failure Load (KN)":"9.5","Correction Factor":"","Point Load Strength":"0.59375" },
+    { "Sample No.": "2","Diameter (cm)": "3.9","Failure Load (KN)":"12","Correction Factor":"","Point Load Strength":"0.7889"},
+    { "Sample No.": "3", "Diameter (cm)": "4","Failure Load (KN)":"12.5","Correction Factor":"","Point Load Strength":"0.78125"}
+  ],
+  "calculation": [
+    "sample 1 => P/D^2 = 9.5/(4^2) = 0.59375KN/cm^2<br>sample 2 => P/D^2 = 12/(3.9^2) = 0.7889KN/cm^2<br>sample 3 => P/D^2 = 12.5/(4^2) = 0.781255KN/cm^2"
+  ],
+  "result": "Point Load Strength of the Sample is 0.7213 KN/cm^2"
+}

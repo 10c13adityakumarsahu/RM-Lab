@@ -1,0 +1,31 @@
+{
+  "title": "RQD determination",
+  "videos": [
+    "https://www.youtube.com/embed/8cX88YWUo4U"
+  ],
+  "aim": "To determine the RQD (Rock Quality Designation) of a given rock core sample.",
+  "apparatus": "Rock Core Sample, Core box/ Core Tray, Measuring Scale or steel tape",
+  "theory":[
+    "v ds","sdv"
+  ],
+  "procedure": [
+  ""
+  ],
+  "Reftables": [
+    {"RQD(%)":"<25","Rock Quality":"Very Poor"},
+    {"RQD(%)":"25-50","Rock Quality":"Poor"},
+    {"RQD(%)":"50-75","Rock Quality":"Fair"},
+    {"RQD(%)":"75-90","Rock Quality":"Good"},
+    {"RQD(%)":"90-100","Rock Quality":"Very Good"}
+  ],
+  "tables": [
+    {"Serial No.":"1","Core Recovery Length (>10)":"12.2+24.5+11.5++11+13 = 72.7cm"},
+    {"Serial No.":"2","Core Recovery Length (>10)":"12+11.5+15.5+12+14.5+12.5+12.5 = 90.5cm"},
+    {"Serial No.":"3","Core Recovery Length (>10)":"10.2+13.3+15+17+18 = 73.5cm"},
+    {"Serial No.":"4","Core Recovery Length (>10)":"12+10.5+13.5+12+11 = 64cm"},
+    {"Serial No.":"5","Core Recovery Length (>10)":"12.5+11.5+12+10.5+11 = 57.5cm"}
+  ],
+  "calculation": "total recovery length = 72.7+90.5+73.5+64+57.5=358.2cm <br> Total length of core = 500cm <br> RQD = (358.2/500)x100% = 71.64% <br> This lies in the Fair range from the reference table.",
+  "precautions": "Consider pieces only greater than 10cm in length. ",
+  "result": "The RQD of the given rock sample is 71.64% and its Rock Quality is Fair ."
+}
